@@ -3,7 +3,7 @@
 int V= //no.of vertices;
 int S= //source
 set<pair<int,int>>Set;
-umap<int,pair<int,int>>adj;
+umap<int,vector<pair<int,int>>adj;
 
 vector<int>res(V,INT_MAX);
 res[S]=0;
