@@ -3,7 +3,7 @@
 int V= //no.of vertices;
 int S= //source
 priority_queue<pair<int,int>,vector<pair<int,int>>,greater<pair<int,int>>>pq;
-umap<int,pair<int,int>>adj;
+umap<int,vector<pair<int,int>>adj;
 
 vector<int>res(V,INT_MAX);
 res[S]=0;
